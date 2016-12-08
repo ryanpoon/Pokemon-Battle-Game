@@ -36,5 +36,7 @@ listofpokemon = """Here is the list of Pokemon:
     35. Dratini
     36. Dragonair
     37. Dragonite
+    38. Jigglypuff
+    39. Wigglytuff
     """
 

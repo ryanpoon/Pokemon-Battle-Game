@@ -40,6 +40,8 @@ from machamp import Machamp
 from abra import Abra
 from kadabra import Kadabra
 from alakazam import Alakazam
+from jigglypuff import Jigglypuff
+from wigglytuff import Wigglytuff
 from listofpokemon import listofpokemon
 from zzzzzz import Aaaaaa
 import random, time
@@ -137,6 +139,10 @@ def custompokemon(lvl):
         return Kadabra(name, level = lvl)
     elif custom == 'alakazam' or custom == 'Alakazam':
         return Alakazam(name, level = lvl)
+    elif custom == 'jigglypuff' or custom == 'Jigglypuff':
+        return Jigglypuff(name, level = lvl)
+    elif custom == 'wigglytuff' or custom == 'Wigglytuff':
+        return Wigglytuff(name, level = lvl)
     elif custom == str(code):
         return Aaaaaa('???', level = lvl)
     else:
