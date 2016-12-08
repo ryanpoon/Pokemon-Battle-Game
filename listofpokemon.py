@@ -27,11 +27,14 @@ listofpokemon = """Here is the list of Pokemon:
     26. Vaporeon
     27. Flareon
     28. Jolteon
-    29. Gastly
-    30. Haunter
-    31. Gengar
-    32. Dratini
-    33. Dragonair
-    34. Dragonite
+    29. Abra
+    30. Kadabra
+    31. Alakazam
+    32. Gastly
+    33. Haunter
+    34. Gengar
+    35. Dratini
+    36. Dragonair
+    37. Dragonite
     """
 

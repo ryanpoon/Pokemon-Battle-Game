@@ -37,10 +37,13 @@ from dragonite import Dragonite
 from machop import Machop
 from machoke import Machoke
 from machamp import Machamp
+from abra import Abra
+from kadabra import Kadabra
+from alakazam import Alakazam
 from listofpokemon import listofpokemon
 from zzzzzz import Aaaaaa
 import random, time
-betterprint("This is the Pokemon generator/fighter by Ryan Poon.\nCredit to the pokemon go database at http://www.pokemongodb.net for various pokemon \ninformation and move information.")
+betterprint("This is the Pokemon generator/fighter by Ryan Poon. Credit to the pokemon go database at http://www.pokemongodb.net for various pokemon information and move information.")
 code = random.randint(10000, 999999)
 
 def pokeinfo(name, poketype, description, moves, cp, height, weight, pokemon, hp, maxhp):
@@ -128,6 +131,12 @@ def custompokemon(lvl):
         return Machoke(name, level = lvl)
     elif custom == 'machamp' or custom == 'Machamp':
         return Machamp(name, level = lvl)
+    elif custom == 'abra' or custom == 'Abra':
+        return Abra(name, level = lvl)
+    elif custom == 'kadabra' or custom == 'Kadabra':
+        return Kadabra(name, level = lvl)
+    elif custom == 'alakazam' or custom == 'Alakazam':
+        return Alakazam(name, level = lvl)
     elif custom == str(code):
         return Aaaaaa('???', level = lvl)
     else:
