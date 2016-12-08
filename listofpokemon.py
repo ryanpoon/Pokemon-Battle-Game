@@ -15,28 +15,30 @@ listofpokemon = """Here is the list of Pokemon:
     14. Gyarados
     15. Pikachu
     16. Raichu
-    17. Cubone
-    18. Marowak
-    19. Weedle
-    20. Kakuna
-    21. Beedrill
-    22. Rhyhorn
-    23. Rhydon
-    24. Lapras
-    25. Eevee
-    26. Vaporeon
-    27. Flareon
-    28. Jolteon
-    29. Abra
-    30. Kadabra
-    31. Alakazam
-    32. Gastly
-    33. Haunter
-    34. Gengar
-    35. Dratini
-    36. Dragonair
-    37. Dragonite
-    38. Jigglypuff
-    39. Wigglytuff
+    17. Weedle
+    18. Kakuna
+    19. Beedrill
+    20. Cubone
+    21. Marowak
+    22. Growlithe
+    23. Arcanine
+    24. Rhyhorn
+    25. Rhydon
+    26. Lapras
+    27. Eevee
+    28. Vaporeon
+    29. Flareon
+    30. Jolteon
+    31. Abra
+    32. Kadabra
+    33. Alakazam
+    34. Gastly
+    35. Haunter
+    36. Gengar
+    37. Dratini
+    38. Dragonair
+    39. Dragonite
+    40. Jigglypuff
+    41. Wigglytuff
     """
 
