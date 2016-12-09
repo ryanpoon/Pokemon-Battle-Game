@@ -1,7 +1,7 @@
 import random, sys, time
 weakness = {'Normal':('Fighting', '???'),'Flying':('Ice', 'Electric', 'Rock', '???'), 'Water':('Electric', 'Grass', '???'), 'Fire':('Water', 'Rock', 'Ground', '???'), 'Grass':('Fire', 'Poison', 'Bug', 'Ice', 'Flying', '???'), 'Bug':('Fire', 'Flying', '???'), 'Ice':('Fire', 'Steel', 'Fighting', '???'), 'Rock':('Water', 'Grass', 'Ground', 'Fighting', 'Steel', '???'), 'Ground':('Water', 'Grass', 'Fighting', '???'), 'Electric':('Ground', 'Rock', '???'), 'Psychic':('Bug', 'Ghost', '???'), 'Fighting':('Psychic, Flying', '???'), 'Poison':('Psychic', 'Ground', '???'), 'Steel':('Ground', '???', 'Fire'), 'Bug':('Rock', '???'), 'Ice':('Rock', 'Steel', '???'), 'Ghost':('Ghost', '???'), 'Dragon':('Dragon', 'Ice', '???'), '???':('lol')}
 def bars(hp):
-    if hp < 0 :
+    if hp < 1:
         return 0
     elif int(hp/10) == 0:
         return 1

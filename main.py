@@ -44,6 +44,8 @@ from jigglypuff import Jigglypuff
 from wigglytuff import Wigglytuff
 from growlithe import Growlithe
 from arcanine import Arcanine
+from exeggcute import Exeggcute
+from exeggutor import Exeggutor
 from listofpokemon import listofpokemon
 from zzzzzz import Aaaaaa
 import random, time
@@ -149,6 +151,10 @@ def custompokemon(lvl):
         return Growlithe(name, level = lvl)
     elif custom == 'arcanine' or custom == 'Arcanine':
         return Arcanine(name, level = lvl)
+    elif custom == 'exeggcute' or custom == 'Exeggcute':
+        return Exeggcute(name, level = lvl)
+    elif custom == 'exeggutor' or custom == 'Exeggutor':
+        return Exeggutor(name, level = lvl)
     elif custom == str(code):
         return Aaaaaa('???', level = lvl)
     else:
