@@ -46,6 +46,7 @@ from growlithe import Growlithe
 from arcanine import Arcanine
 from exeggcute import Exeggcute
 from exeggutor import Exeggutor
+from snorlax import Snorlax
 from listofpokemon import listofpokemon
 from zzzzzz import Aaaaaa
 import random, time
@@ -155,6 +156,8 @@ def custompokemon(lvl):
         return Exeggcute(name, level = lvl)
     elif custom == 'exeggutor' or custom == 'Exeggutor':
         return Exeggutor(name, level = lvl)
+    elif custom == 'snorlax' or custom == 'Snorlax':
+        return Snorlax(name, level = lvl)
     elif custom == str(code):
         return Aaaaaa('???', level = lvl)
     else:

@@ -29,19 +29,19 @@ listofpokemon = """Here is the list of Pokemon:
     28. Rhyhorn
     29. Rhydon
     30. Lapras
-    31. Eevee
-    32. Vaporeon
-    33. Flareon
-    34. Jolteon
-    35. Abra
-    36. Kadabra
-    37. Alakazam
-    38. Gastly
-    39. Haunter
-    40. Gengar
-    41. Dratini
-    42. Dragonair
-    43. Dragonite
-    
+    31. Snorlax
+    32. Eevee
+    33. Vaporeon
+    34. Flareon
+    35. Jolteon
+    36. Abra
+    37. Kadabra
+    38. Alakazam
+    39. Gastly
+    40. Haunter
+    41. Gengar
+    42. Dratini
+    43. Dragonair
+    44. Dragonite
     """
 
