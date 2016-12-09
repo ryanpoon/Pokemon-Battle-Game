@@ -6,7 +6,7 @@ class Lapras:
     def __init__(self, name='Lapras', level=1):
         self.attack = 186 + random.randint(1, 15)
         self.defense = 190 + random.randint(1, 15)
-        self.cp = random.randint(10, level*75)
+        self.cp = random.randint(10, level*80)
         self.name = name
         self.hp = int(self.cp/9)
         self.maxhp = int(self.cp/9)
