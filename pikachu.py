@@ -2,7 +2,7 @@ import random
 from raichu import Raichu
 class Pikachu:
     poketype = ['Electric']
-    description = 'Pikachu is an Electric Type Pokemon. It evolves into Raichu.'
+    description = "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokemon mistook the intensity of its charge."
     pokemon = 'Pikachu'
 
     def __init__(self, name='Pikachu', level=1):
@@ -16,20 +16,20 @@ class Pikachu:
 #Generating moves
         moves = random.randint(1,7)
         if moves == 1:
-            self.moves = ('Spark', 'Thunder')
+            self.moves = ('Quick Attack', 'Discharge')
         elif moves == 2:
-            self.moves = ('Spark', 'Brick Break')
-        elif moves == 3:
             self.moves = ('Thunder Shock', 'Thunder')
+        elif moves == 3:
+            self.moves = ('Thunder Shock', 'Thunderbolt')
         elif moves == 4:
-            self.moves = ('Thunder Shock', 'Brick Break')
+            self.moves = ('Thunder Shock', 'Discharge')
         elif moves == 5:
             self.moves = ('Quick Attack', 'Thunder')
         else:
-            self.moves = ('Quick Attack', 'Brick Break')
+            self.moves = ('Quick Attack', 'Thunderbolt')
 #Generating size stats
-        self.height = float(random.randint(100, 160))/100
-        self.weight = float(random.randint(3000,6000))/100
+        self.height = float(random.randint(30, 50))/100
+        self.weight = float(random.randint(500,700))/100
     
     
     def evolve(self, lvl):
