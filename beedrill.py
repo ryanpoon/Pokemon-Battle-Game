@@ -11,7 +11,7 @@ class Beedrill:
             name = 'Beedrill'
         self.attack = 144 + random.randint(1, 15)
         self.defense = 130 + random.randint(1, 15)
-        self.cp = int((random.randint(30, 40)/10)*startcp)
+        self.cp = int((random.randint(40, 45)/10)*startcp)
         self.name = name
         self.hp = int(self.cp/9)
         self.maxhp = int(self.cp/9)

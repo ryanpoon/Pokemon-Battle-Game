@@ -9,7 +9,7 @@ class Weedle:
         self.stamina = 80 + random.randint(1, 15)
         self.attack = 63 + random.randint(1, 15)
         self.defense = 55 + random.randint(1, 15)
-        self.cp = random.randint(10, level*15)
+        self.cp = random.randint(10, level*10)
         self.name = name
         self.hp = int(self.cp/9)
         self.maxhp = int(self.cp/9)

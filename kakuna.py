@@ -7,12 +7,12 @@ class Kakuna:
 
     def __init__(self, name='Kakuna', startcp = None, level=1):
         if startcp == None:
-            startcp = random.randint(10, level*15)
+            startcp = random.randint(10, level*10)
         if name == 'Weedle':
             name = 'Kakuna'
         self.attack = 46 + random.randint(1, 15)
         self.defense = 86 + random.randint(1, 15)
-        self.cp = int((random.randint(10, 11)/10)*startcp)
+        self.cp = startcp
         self.name = name
         self.hp = int(self.cp/9)
         self.maxhp = int(self.cp/9)
