@@ -31,8 +31,8 @@ class Beedrill:
             self.moves = ('Poison Jab', 'X-Scissor')
  
 #Generating size stats
-        self.height = float(random.randint(45, 75))/100
-        self.weight = float(random.randint(500,1500))/100
+        self.height = float(random.randint(80, 120))/100
+        self.weight = float(random.randint(2000,4000))/100
     
     def powerup(self, lvl):
         self.cp += lvl*2

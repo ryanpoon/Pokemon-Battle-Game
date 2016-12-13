@@ -10,8 +10,8 @@ class Kakuna:
             startcp = random.randint(10, level*15)
         if name == 'Weedle':
             name = 'Kakuna'
-        self.attack = 62 + random.randint(1, 15)
-        self.defense = 82 + random.randint(1, 15)
+        self.attack = 46 + random.randint(1, 15)
+        self.defense = 86 + random.randint(1, 15)
         self.cp = int((random.randint(10, 11)/10)*startcp)
         self.name = name
         self.hp = int(self.cp/9)
