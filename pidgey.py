@@ -13,7 +13,7 @@ class Pidgey:
         self.hp = int(self.cp/9)
         self.maxhp = int(self.cp/9)
 #Generating moves
-        moves = random.randint(1,5)
+        moves = random.randint(1,7)
         if moves == 1:
             self.moves = ('Tackle', 'Aerial Ace')
         elif moves == 2:
