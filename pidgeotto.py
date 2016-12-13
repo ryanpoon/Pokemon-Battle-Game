@@ -10,25 +10,29 @@ class Pidgeotto:
             startcp = random.randint(10, level*15)
         if name == 'Pidgey':
             name = 'Pidgeotto'
-        self.attack = 126 + random.randint(1, 15)
-        self.defense = 122 + random.randint(1, 15)
-        self.cp = int((random.randint(11, 20)/10)*startcp)
+        self.attack = 117 + random.randint(1, 15)
+        self.defense = 108 + random.randint(1, 15)
+        self.cp = int((random.randint(17, 19)/10)*startcp)
         self.name = name
         self.hp = int(self.cp/9)
         self.maxhp = int(self.cp/9)
 #Generating moves
         moves = random.randint(1,5)
         if moves == 1:
-            self.moves = ('Fly', 'Gust')
+            self.moves = ('Steel Wing', 'Aerial Ace')
         elif moves == 2:
-            self.moves = ('Fly', 'Twister')
+            self.moves = ('Steel Wing', 'Twister')
         elif moves == 3:
-            self.moves = ('Quick Attack', 'Gust')
+            self.moves = ('Steel Wing', 'Air Cutter')
+        elif moves == 4:
+            self.moves = ('Wing Attack', 'Aerial Ace')
+        elif moves == 5:
+            self.moves = ('Wing Attack', 'Air Cutter')
         else:
-            self.moves = ('Quick Attack', 'Twister')
+            self.moves = ('Wing Attack', 'Twister')
 #Generating size stats
-        self.height = float(random.randint(130, 170))/100
-        self.weight = float(random.randint(15000,30000))/100
+        self.height = float(random.randint(80, 120))/100
+        self.weight = float(random.randint(2000,4000))/100
     
     def powerup(self, lvl):
         self.cp += lvl*2

@@ -1,4 +1,6 @@
-moveinfo = {'Rock Tomb':(30, 'Rock', 4, 12),
+moveinfo = {'Hurricane':(80, 'Flying', 1, 10),
+            'Air Cutter':(30, 'Flying', 3, 9),
+            'Rock Tomb':(30, 'Rock', 4, 12),
             'Rock Slide':(50, 'Rock', 2, 7),
             'Rock Throw':(12, 'Rock', 35, 8),
             'Thunder Punch':(40, 'Electric', 3, 7),
