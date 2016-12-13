@@ -47,6 +47,9 @@ from arcanine import Arcanine
 from exeggcute import Exeggcute
 from exeggutor import Exeggutor
 from snorlax import Snorlax
+from geodude import Geodude
+from graveler import Graveler
+from golem import Golem
 from listofpokemon import listofpokemon
 from zzzzzz import Aaaaaa
 import random, time
@@ -158,6 +161,12 @@ def custompokemon(lvl):
         return Exeggutor(name, level = lvl)
     elif custom == 'snorlax' or custom == 'Snorlax':
         return Snorlax(name, level = lvl)
+    elif custom == 'geodude' or custom == 'Geodude':
+        return Geodude(name, level = lvl)
+    elif custom == 'graveler' or custom == 'Graveler':
+        return Graveler(name, level = lvl)
+    elif custom == 'golem' or custom == 'Golem':
+        return Golem(name, level = lvl)
     elif custom == str(code):
         return Aaaaaa('???', level = lvl)
     else:
@@ -175,6 +184,7 @@ def makepokemon(lvl):
             break
     for x in range(int(thingy)):
         print(pokesimple(custompokemon(lvl)))
+    print('-------------------------------------------------------------')
     return None
 def fightpokemon(lvl):
     global moveinfo

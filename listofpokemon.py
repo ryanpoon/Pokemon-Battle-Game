@@ -24,24 +24,27 @@ listofpokemon = """Here is the list of Pokemon:
     23. Marowak
     24. Growlithe
     25. Arcanine
-    26. Exeggcute
-    27. Exeggutor
-    28. Rhyhorn
-    29. Rhydon
-    30. Lapras
-    31. Snorlax
-    32. Eevee
-    33. Vaporeon
-    34. Flareon
-    35. Jolteon
-    36. Abra
-    37. Kadabra
-    38. Alakazam
-    39. Gastly
-    40. Haunter
-    41. Gengar
-    42. Dratini
-    43. Dragonair
-    44. Dragonite
+    26. Geodude
+    27. Graveler
+    28. Golem
+    29. Exeggcute
+    30. Exeggutor
+    31. Rhyhorn
+    32. Rhydon
+    33. Lapras
+    34. Snorlax
+    35. Eevee
+    36. Vaporeon
+    37. Flareon
+    38. Jolteon
+    39. Abra
+    40. Kadabra
+    41. Alakazam
+    42. Gastly
+    43. Haunter
+    44. Gengar
+    45. Dratini
+    46. Dragonair
+    47. Dragonite
     """
 
