@@ -9,8 +9,8 @@ class Beedrill:
             startcp = int((random.randint(10, 11)/10)*random.randint(10, level*15))
         if name == 'Kakuna':
             name = 'Beedrill'
-        self.attack = 144 + random.randint(1, 15)
-        self.defense = 130 + random.randint(1, 15)
+        self.attack = 169 + random.randint(1, 15)
+        self.defense = 150 + random.randint(1, 15)
         self.cp = int((random.randint(40, 45)/10)*startcp)
         self.name = name
         self.hp = int(self.cp/9)

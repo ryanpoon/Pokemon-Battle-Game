@@ -6,7 +6,7 @@ class Pidgeot:
 
     def __init__(self, name='Pidgeot', startcp = None, level=1):
         if startcp == None:
-            startcp = int((random.randint(11, 20)/10)*startcp)
+            startcp = int((random.randint(17, 19)/10)*random.randint(10, level*15))
         if name == 'Pidgeotto':
             name = 'Pidgeot'
         self.attack = 170 + random.randint(1, 15)
